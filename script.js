@@ -20,3 +20,18 @@
 // ? From string to number
 console.log(Number(a));
 
+// ? From number to string 
+console.log("number converted to string"+a.toString());
+
+
+
+// ? toFixed
+
+let num = 45.341453718379
+
+console.log(num);
+
+document.write(num.toFixed(0))
+
+// ? Cheksiz
+console.log(Infinity);
