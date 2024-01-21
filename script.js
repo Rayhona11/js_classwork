@@ -17,20 +17,17 @@
 //console.log(a/b);
 //console.log(a*b);
 
-// ? From string to number
-//console.log(Number(a));
+   // ? From string to number
+  //console.log(Number(a));
 
-// ? From number to string 
-// console.log("number converted to string"+a.toString());
-
+  // ? From number to string 
+ // console.log("number converted to string"+a.toString());
 
 
 // ? toFixed
 
 let num = 45.341453718379
-
 console.log(num);
-
 document.write(num.toFixed(0))
 
 // ? Cheksiz
@@ -49,19 +46,15 @@ console.log(Math.sqrt(num));
 
 let z = 4;
 let y = 9;
-//let  result =((1/6*Math.sqrt(z))+(1/3*Math.sqrt(y)))**2
-//console.log(result);
+let  results =((1/6*Math.sqrt(z))+(1/3*Math.sqrt(y)))**2
+console.log(results);
 
-// ? 2-masala 
+// ? 3-masala 
 let a = 231;
-
 
 let result = a.toString();
 let first = result.slice(0,1).toString()
 let second = result.slice(1,2).toString()
 let third = result.slice(2,3).toString()
 
-console.log(third + second + first);
-
-
-// ? 3-masala
+ console.log(third + second + first);
